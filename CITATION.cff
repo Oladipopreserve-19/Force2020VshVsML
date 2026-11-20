@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "When is a gamma-ray cutoff enough? Classical shale-volume estimators against machine learning on 118 North Sea wells: code and results"
+authors:
+  - family-names: Oladipo
+    given-names: Preserve Oluwadimimu
+    affiliation: "Department of Geology and Mineral Sciences, University of Ilorin, Nigeria"
+    orcid: "https://orcid.org/0009-0008-3770-1704"
+version: 1.0.0
+date-released: 2026-11-20
+license: MIT
+repository-code: "https://github.com/Oladipopreserve-19/force2020-vsh-vs-ml"
+keywords: [petrophysics, shale volume, gamma ray, machine learning, lithology, North Sea, FORCE 2020]
