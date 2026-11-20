@@ -1,0 +1,15 @@
+labels,method,n,balanced_acc,f1_sand
+all labels,HGB_ALL,1083635,0.888,0.778
+all labels,HGB_GR,1083635,0.744,0.54
+all labels,RF_ALL,474184,0.911,0.841
+all labels,LINEAR_0.35,1083635,0.78,0.561
+all labels,LINEAR_0.50,1083635,0.736,0.483
+all labels,ND_0.40,718354,0.786,0.605
+all labels,ND_0.50,718354,0.774,0.561
+confidence 1 only,HGB_ALL,988242,0.899,0.799
+confidence 1 only,HGB_GR,988242,0.753,0.552
+confidence 1 only,RF_ALL,448810,0.917,0.85
+confidence 1 only,LINEAR_0.35,988242,0.795,0.581
+confidence 1 only,LINEAR_0.50,988242,0.749,0.498
+confidence 1 only,ND_0.40,671405,0.796,0.612
+confidence 1 only,ND_0.50,671405,0.782,0.564
