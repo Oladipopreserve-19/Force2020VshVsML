@@ -3,7 +3,7 @@
 Code and results comparing classical shale-volume (Vsh) estimators with machine learning for sandstone/shale classification on **118 Norwegian North Sea wells** (FORCE 2020 dataset).
 
 **Author:** Oladipo Preserve Oluwadimimu, University of Ilorin · ORCID [0009-0008-3770-1704](https://orcid.org/0009-0008-3770-1704)
-**Preprint:** [link to be added when posted on EarthArXiv]
+**Preprint:** EarthArXiv (submitted 22 November 2026; DOI to be added after moderation)
 
 ## Main results (held-out wells, balanced accuracy, sandstone vs shale)
 
@@ -19,6 +19,19 @@ Code and results comparing classical shale-volume (Vsh) estimators with machine 
 * With gamma ray alone, machine learning was no better than a cutoff: the gain comes from the extra logs.
 * Larionov and Clavier corrections reduced accuracy at every cutoff tested.
 * The benefit depends on stratigraphy: largest in the Rogaland and Viking groups, absent in the Hegre and Vestland groups.
+
+## Documentation
+
+* `docs/TUTORIAL.md`: install, a test on a synthetic well, one real well, and the full reproduction
+* `docs/USER_GUIDE.md`: inputs, outputs, options, requirements and expected behaviour of every script
+
+Quick test with no downloads:
+
+```bash
+.venv/bin/python -I code/example_single_well.py --synthetic
+```
+
+Requirements: Python 3.10 or later, packages in `requirements.txt`, about 16 GB RAM and 1 GB disk for the full run. CPU only.
 
 ## Reproduce
 
@@ -38,7 +51,8 @@ python3 -m venv .venv
 
 ## Contents
 
-* `code/` analysis scripts, run in order
+* `code/` analysis scripts, run in order; `code/example_single_well.py` applies the method to any LAS file
+* `docs/` user guide and tutorial
 * `data/results_*.csv` derived results tables; `data/provenance_wells.csv` list of wells and curves; `data/well_name_map.csv` LAS to NPD well names
 * `figures/` figures 1 to 5 (300 dpi)
 
