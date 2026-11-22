@@ -3,7 +3,7 @@
 Code and results comparing classical shale-volume (Vsh) estimators with machine learning for sandstone/shale classification on **118 Norwegian North Sea wells** (FORCE 2020 dataset).
 
 **Author:** Oladipo Preserve Oluwadimimu, University of Ilorin · ORCID [0009-0008-3770-1704](https://orcid.org/0009-0008-3770-1704)
-**Preprint:** EarthArXiv (submitted 22 November 2026; DOI to be added after moderation)
+**Preprint:** EarthArXiv, https://doi.org/10.31223/X5FN7N
 
 ## Main results (held-out wells, balanced accuracy, sandstone vs shale)
 
